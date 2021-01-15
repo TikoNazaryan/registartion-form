@@ -1,0 +1,47 @@
+.select-field {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: #f5f8fa;
+  border-radius: 8px;
+  margin-top: 21px;
+}
+.select-field .trigger {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  padding-left: 18px;
+  line-height: 50px;
+}
+.select-field .value {
+  color: #222222;
+}
+.select-field .placeholder {
+  color: #757575;
+}
+.select-field .dropdown {
+  width: 100%;
+  max-height: 200px;
+  transform: translateY(100%);
+  background-color: #ffffff;
+  bottom: -6px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px #00000015;
+  padding: 8px 0px;
+  position: absolute;
+  overflow: auto;
+  z-index: 2;
+}
+.select-field .dropdown .option {
+  width: 100%;
+  height: 36px;
+  padding-left: 19px;
+  line-height: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.select-field .dropdown .option:hover {
+  background-color: #f5f8fa;
+}

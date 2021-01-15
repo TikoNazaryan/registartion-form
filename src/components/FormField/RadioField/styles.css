@@ -1,0 +1,33 @@
+.radio-field {
+  margin-top: 25px;
+  display: flex;
+}
+.radio-field input {
+  display: none;
+}
+.radio-field label {
+  margin-right: 25px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  color: #222222;
+  font-size: 12px;
+}
+.radio-field .beautified {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #0094ff;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.radio-field input:checked + .beautified:after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #0094ff;
+}
